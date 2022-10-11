@@ -26,7 +26,7 @@ public class Sample3AuthConfiguration {
         .build();
     UserDetails admin = users
         .username("admin")
-        .password("$2y$10$/6Jv61KWt8A2ZT8mkOZwyO7W. 4JyCWj2yRoOl9cZ7ACzC3Ku8JUT6")
+        .password("$2y$10$/6Jv61KWt8A2ZT8mkOZwyO7W.4JyCWj2yRoOl9cZ7ACzC3Ku8JUT6")
         .roles("ADMIN")
         .build();
     return new InMemoryUserDetailsManager(user1, admin);
